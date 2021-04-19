@@ -1,6 +1,6 @@
 # has_secure_password
 
-## Objectives
+## Objectives 
 
 We're going to make a Rails app that covers a simple authentication flow: users can create accounts, log in, and log out.
 
@@ -12,7 +12,7 @@ Our app has three pages:
   3. A user homepage, which says, "Hi, #{name}."
 
 We're not covering validations in this lab, so don't worry about those. (Password validations are hard to get right anyway; it's surprisingly easy to produce rules which decrease password security rather than enhance it.)
-
+ 
 Users should not be able to log in if they enter an incorrect password. Just redirect them back to the login page. If you want to present an error, you can either return an HTTP error from the controller and catch it with Javascript, or set a [`flash`][flash].
 
 ## Instructions
